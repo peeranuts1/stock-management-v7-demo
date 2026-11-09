@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+stock.db
+*.db-journal
+.pytest_cache/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# SQLite databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Local configuration
+.vscode/
