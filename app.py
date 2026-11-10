@@ -218,4 +218,8 @@ if __name__=='__main__':
     if '--seed-demo' in sys.argv:
         from init_demo import seed_demo
         seed_demo()
-    else: app.run(host='127.0.0.1',port=int(os.getenv('PORT','5050')),debug=False)
+    else: app.run(
+        host='127.0.0.1',
+        port=int(os.getenv('PORT', '5000')),
+        debug=False
+    )

@@ -34,3 +34,8 @@ venv/
 
 # Local configuration
 .vscode/
+# Local backup files
+*.bak
+*.bak.html
+*.html.html
+*.html.html.html
